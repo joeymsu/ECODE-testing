@@ -1,12 +1,12 @@
 import time
 import numpy as np
 import pandas as pd
-from downstream import dstream
+# from downstream import dstream
 
 # imports - not working for now
-# from downstream.downstream.dstream.steady_algo._steady_lookup_ingest_times_batched import steady_lookup_ingest_times_batched
-# from downstream.downstream.dstream.stretched_algo._stretched_lookup_ingest_times_batched import stretched_lookup_ingest_times_batched
-# from downstream.downstream.dstream.tilted_algo._tilted_lookup_ingest_times_batched import tilted_lookup_ingest_times_batched
+from downstream.dstream.steady_algo._steady_lookup_ingest_times_batched import steady_lookup_ingest_times_batched
+from downstream.dstream.stretched_algo._stretched_lookup_ingest_times_batched import stretched_lookup_ingest_times_batched
+from downstream.dstream.tilted_algo._tilted_lookup_ingest_times_batched import tilted_lookup_ingest_times_batched
 
 records = []
 
